@@ -21,12 +21,19 @@ def start_game():
     number_guess = int(input("Please guess the number from 1-10: "))
     print(number_guess)
 #     a. If the guess is greater than the solution, display to the player "It's lower".
+    while number_guess != random_number:
+        print("This number is incorrect. Please try again: ")
+        if number_guess > 10;
+            print("This number is too high, please pick lower number: ")
 #     b. If the guess is less than the solution, display to the player "It's higher".
-
+        else number_guess < 1;
+            print("This number is too low, please pick higher number: ")
 #   4. Once the guess is correct, stop looping, inform the user they "Got it"
 #      and show how many attempts it took them to get the correct number.
+    else:
+        print("Well done! Your guess matches the random number!")
 #   5. Let the player know the game is ending, or something that indicates the game is over.
-
+    break
 # ( You can add more features/enhancements if you'd like to. )
 
 
